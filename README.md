@@ -1,6 +1,6 @@
 # Emoji Helper (Moon Edition)
 
-An Emoji cheat sheet extension for Pale Moon and Firefox. Also a Bookmarklet.
+An Emoji cheat sheet extension for Pale Moon, also a Bookmarklet.
 
 
 ## Development
