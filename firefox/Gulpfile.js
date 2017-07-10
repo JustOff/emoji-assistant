@@ -74,7 +74,7 @@ gulp.task("release", ["build"], function() {
   return fs.mkdirs("../release/latest/firefox/").then(function(){
     return xpi(pkg, options);
   }).then(function(){
-    return fs.rename(`../release/latest/firefox/jid1-Xo5SuA6qc1DFpw@jetpack-${pkg.version}.xpi`, "../release/latest/firefox/emoji-helper.xpi");
+    return fs.rename(`../release/latest/firefox/emoji-helper-me@Off.JustOff-${pkg.version}.xpi`, "../release/latest/firefox/emoji-helper.xpi");
    });
 });
 

@@ -1,12 +1,15 @@
 {
-  "name": "emoji-helper",
-  "title": "Emoji Cheatsheet for GitHub, Basecamp etc.",
-  "version": "1.2.0",
+  "name": "emoji-helper-me",
+  "title": "Emoji Helper (Moon Edition)",
+  "version": "1.0.1",
   "description": "A very simple and useful reference for the codes that can be used to generate Emojis on popular sites like GitHub or Basecamp.",
-  "id": "jid1-Xo5SuA6qc1DFpw@jetpack",
+  "id": "emoji-helper-me@Off.JustOff",
   "main": "lib/main.js",
-  "author": "Johann Hofmann",
-  "homepage": "http://github.com/johannhof/emoji-helper",
+  "author": "Off JustOff <Off.Just.Off@gmail.com>",
+  "contributors": [
+    "Johann Hofmann"
+  ],
+  "homepage": "https://github.com/JustOff/emoji-helper-me",
   "license": "MIT",
   "engines": {
     "firefox": ">=38.0a1",
