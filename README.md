@@ -14,12 +14,12 @@ The build process is done through Gulp. Each submodule (`firefox`, `bookmarklet`
 The generated files are located in the `build` folders. To load the build folder into the browser, do the following:
 
 
-#### Pale Moon and Firefox
+#### Pale Moon
 
 A good introduction to the Mozilla Add-on SDK is https://developer.mozilla.org/Add-ons/SDK/Tutorials/Getting_started
 
 ```bash
-$ cd firefox
+$ cd palemoon
 $ gulp build
 $ cd build
 $ jpm xpi
