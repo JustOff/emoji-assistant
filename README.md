@@ -9,7 +9,7 @@ Since nowadays most browsers allow plugins to be written in HTML/CSS/JS, it is v
 
 ### Building
 
-The build process is done through Gulp. Each submodule (`firefox`, `bookmarklet`) has its own `Gulpfile` which takes care of building the corresponding extension build, e.g. copying required shared resources from the `shared` folder. 
+The build process is done through Gulp. Each submodule (`palemoon`, `bookmarklet`) has its own `Gulpfile` which takes care of building the corresponding extension build, e.g. copying required shared resources from the `shared` folder. 
 
 The generated files are located in the `build` folders. To load the build folder into the browser, do the following:
 
