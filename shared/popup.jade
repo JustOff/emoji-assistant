@@ -56,22 +56,14 @@ html
         button#clear-history-button.detail-button(title="Clear history")
             i.ion-trash-b
       .group(id="about-container")
-        h1
-          | Emoji
-          img(src="./img/emoji/hatched_chick.png")
-          | Helper
-        h3= browser
+        h1 Emoji Helper (Moon Edition)
         div.half
           p
-            +link("http://johannhof.github.io/emoji-helper")
-              i.ion-earth
-              | Website
-          p
-            +link("http://github.com/johannhof/emoji-helper")
+            +link("https://github.com/JustOff/emoji-helper-me")
               i.ion-social-github
               | Contribute on GitHub
           p
-            +link("http://github.com/johannhof/emoji-helper/issues")
+            +link("https://github.com/JustOff/emoji-helper-me/issues")
               i.ion-bug
               | Bugs & Feature Requests
           p
@@ -81,26 +73,14 @@ html
           p
             | Copyright see 
             +link("https://github.com/github/gemoji/blob/master/LICENSE") license 
-          center
-            img.about-text-img(src="./img/emoji/heart.png")
         div.half
-          p.center
-            | Version 1.2.0 - 
-            img.about-text-img(src="./img/emoji/octopus.png")
+          p.center Version 1.0.1
           hr
           ul
-            li
-              | "Clear history" option in the settings (by 
-              +link("https://github.com/jackunion") @jackunion
-              | )
-            li
-              | Show the emoji name on hover, also by 
-              +link("https://github.com/jackunion") @jackunion
-            if browser == "Firefox"
-              li Now works in Firefox private mode! Duh!
+            li Initial release for Pale Moon
           hr
           p
-            +link("https://github.com/johannhof/emoji-helper/releases")
+            +link("https://github.com/JustOff/emoji-helper-me/releases")
               i.ion-social-octocat
               | Full changelog & all releases
     #detail
