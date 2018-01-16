@@ -1,4 +1,4 @@
-# Emoji Helper (Moon Edition)
+# Emoji Assistant
 
 An Emoji cheat sheet extension for Pale Moon, also a Bookmarklet.
 
