@@ -1,22 +1,20 @@
-# Emoji Assistant
+### [<sub>⬇</sub> Emoji Assistant](https://github.com/JustOff/emoji-assistant/releases)
 
 An Emoji cheat sheet extension for Pale Moon, also a Bookmarklet.
 
 
-## Development
+**Development**
 
 Since nowadays most browsers allow plugins to be written in HTML/CSS/JS, it is very easy to build a cross-browser extension, especially when you're not interested in low-level browser functionality.
 
-### Building
+**Building**
 
 The build process is done through Gulp. Each submodule (`palemoon`, `bookmarklet`) has its own `Gulpfile` which takes care of building the corresponding extension build, e.g. copying required shared resources from the `shared` folder. 
 
 The generated files are located in the `build` folders. To load the build folder into the browser, do the following:
 
 
-#### Pale Moon
-
-A good introduction to the Mozilla Add-on SDK is https://developer.mozilla.org/Add-ons/SDK/Tutorials/Getting_started
+**Pale Moon**
 
 ```bash
 $ cd palemoon
@@ -25,7 +23,7 @@ $ cd build
 $ jpm xpi
 ```
 
-#### Bookmarklet
+**Bookmarklet**
 
 ```bash
 $ cd bookmarklet
